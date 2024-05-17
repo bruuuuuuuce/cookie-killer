@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Cookie Killer",
+  "name": "Cookie Slayer",
   "version": "0.0.1",
 
   "description": "Hides cookie banner pop-ups on websites.",
