@@ -29,7 +29,7 @@ const commands = [
       // zip
       `pushd dist/${browser}`,
       `zip -r ${browser}.zip *`,
-      `popd`,
+      `cd ../..`,
     ];
   }),
 ].flat();
