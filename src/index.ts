@@ -12,6 +12,7 @@ const cookieRequestBannerSelectors: string[] = [
   '#termly-code-snippet-support', // termly
   '.osano-cm-dialog', // osano
   '.frame-content__inner', //securityprivacy.ai
+  '#CybotCookiebotDialog', // goodtimes.io
 ];
 
 class CookieKiller {
