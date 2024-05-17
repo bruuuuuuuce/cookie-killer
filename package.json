@@ -1,0 +1,41 @@
+{
+  "name": "cookie-killer",
+  "version": "0.0.1",
+  "description": "Hides cookie popup banners",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist/",
+    "dev": "tsc --watch",
+    "prebuild": "rm -rf dist && eslint . --ext .ts",
+    "build": "tsc --outDir dist && rm -rf dist && ts-node esbuild.ts",
+    "postbuild": "ts-node postbuild.ts",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruuuuuuuce/cookie-killer-poc.git"
+  },
+  "author": "Bruuuuuuuce",
+  "bugs": {
+    "url": "https://github.com/bruuuuuuuce/cookie-killer-poc/issues"
+  },
+  "homepage": "https://github.com/bruuuuuuuce/cookie-killer-poc#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/firefox-webext-browser": "^120.0.3",
+    "@types/webextension-polyfill": "^0.10.7",
+    "@typescript-eslint/eslint-plugin": "6.7.3",
+    "@typescript-eslint/parser": "6.7.3",
+    "esbuild": "0.21.1",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-import": "2.29.1",
+    "prettier": "3.2.5",
+    "ts-node": "10.9.2",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "webextension-polyfill": "^0.12.0"
+  }
+}

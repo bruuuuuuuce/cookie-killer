@@ -1,0 +1,19 @@
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+# dependencies
+node_modules/*
+
+# build
+dist/*
+
+# parcel
+.cache/
+.parcel-cache/
+coverage/
+*.log
+
+.DS_Store

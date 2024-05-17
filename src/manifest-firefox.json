@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "name": "Cookie Killer",
+  "version": "0.0.1",
+
+  "description": "Hides cookie banner pop-ups on websites.",
+
+  "icons": {
+    "48": "icons/icon48.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon48.png",
+    "default_title": "Cookie Killer",
+    "default_popup": "popup/index.html"
+  },
+
+  "permissions": [
+    "*://cookie-killer-poc-backend.vercel.app/api/v1/missing?*",
+    "tabs"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js", "popup/index.js", "background/index.js"],
+      "css": ["main.css", "popup/index.css"]
+    }
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b03805c0-2094-4210-9a89-eaa75b675da5}"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background/index.js"
+    ]
+  }
+}

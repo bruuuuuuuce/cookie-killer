@@ -1,0 +1,30 @@
+#cookie-killer-body {
+    width: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+.cookie-killer-button {
+    border: none;
+    width: 100%;
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #e5f2f2;
+}
+
+.cookie-killer-button:hover {
+    background-color: #cff2f2;
+}
+
+.cookie-killer-button[type="reset"] {
+    background-color: #fbfbc9;
+}
+
+.cookie-killer-button[type="reset"]:hover {
+    background-color: #eaea9d;
+}
