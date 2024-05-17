@@ -27,7 +27,7 @@ const commands = [
       // copy browser polyfill for chrome
       `cp node_modules/webextension-polyfill/dist/browser-polyfill.js dist/${browser}/browser-polyfill.js`,
       // zip
-      `pushd dist/${browser}`,
+      `cd dist/${browser}`,
       `zip -r ${browser}.zip *`,
       `cd ../..`,
     ];
