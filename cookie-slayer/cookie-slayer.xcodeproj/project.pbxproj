@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02E1EC7C2BFD700A0083A54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1EC7B2BFD700A0083A54B /* AppDelegate.swift */; };
+		02E1EC802BFD700A0083A54B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 02E1EC7F2BFD700A0083A54B /* Base */; };
+		02E1EC822BFD700A0083A54B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 02E1EC812BFD700A0083A54B /* Icon.png */; };
+		02E1EC842BFD700A0083A54B /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 02E1EC832BFD700A0083A54B /* Style.css */; };
+		02E1EC862BFD700A0083A54B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1EC852BFD700A0083A54B /* SceneDelegate.swift */; };
+		02E1EC882BFD700A0083A54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1EC872BFD700A0083A54B /* ViewController.swift */; };
+		02E1EC8B2BFD700A0083A54B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 02E1EC8A2BFD700A0083A54B /* Base */; };
+		02E1EC8E2BFD700A0083A54B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 02E1EC8D2BFD700A0083A54B /* Base */; };
+		02E1EC9A2BFD700D0083A54B /* cookie_slayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1EC992BFD700D0083A54B /* cookie_slayerTests.swift */; };
+		02E1ECA42BFD700D0083A54B /* cookie_slayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1ECA32BFD700D0083A54B /* cookie_slayerUITests.swift */; };
+		02E1ECA62BFD700D0083A54B /* cookie_slayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1ECA52BFD700D0083A54B /* cookie_slayerUITestsLaunchTests.swift */; };
+		02E1ECAC2BFD700D0083A54B /* cookie-slayer Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 02E1ECAB2BFD700D0083A54B /* cookie-slayer Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		02E1ECB12BFD700D0083A54B /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E1ECB02BFD700D0083A54B /* SafariWebExtensionHandler.swift */; };
+		02E1ECB42BFD700D0083A54B /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECB32BFD700D0083A54B /* _locales */; };
+		02E1ECB62BFD700D0083A54B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECB52BFD700D0083A54B /* images */; };
+		02E1ECB82BFD700D0083A54B /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECB72BFD700D0083A54B /* manifest.json */; };
+		02E1ECBA2BFD700D0083A54B /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECB92BFD700D0083A54B /* background.js */; };
+		02E1ECBC2BFD700D0083A54B /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECBB2BFD700D0083A54B /* content.js */; };
+		02E1ECBE2BFD700D0083A54B /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECBD2BFD700D0083A54B /* popup.html */; };
+		02E1ECC02BFD700D0083A54B /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECBF2BFD700D0083A54B /* popup.css */; };
+		02E1ECC22BFD700D0083A54B /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 02E1ECC12BFD700D0083A54B /* popup.js */; };
+		02E1ECC42BFD700E0083A54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02E1EC8F2BFD700D0083A54B /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02E1EC962BFD700D0083A54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E1EC702BFD70090083A54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E1EC772BFD700A0083A54B;
+			remoteInfo = "cookie-slayer";
+		};
+		02E1ECA02BFD700D0083A54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E1EC702BFD70090083A54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E1EC772BFD700A0083A54B;
+			remoteInfo = "cookie-slayer";
+		};
+		02E1ECAD2BFD700D0083A54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02E1EC702BFD70090083A54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02E1ECAA2BFD700D0083A54B;
+			remoteInfo = "cookie-slayer Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		02E1ECCA2BFD700E0083A54B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				02E1ECAC2BFD700D0083A54B /* cookie-slayer Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02E1EC782BFD700A0083A54B /* cookie-slayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cookie-slayer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1EC7B2BFD700A0083A54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02E1EC7F2BFD700A0083A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		02E1EC812BFD700A0083A54B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		02E1EC832BFD700A0083A54B /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		02E1EC852BFD700A0083A54B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02E1EC872BFD700A0083A54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		02E1EC8A2BFD700A0083A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02E1EC8D2BFD700A0083A54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02E1EC8F2BFD700D0083A54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02E1EC902BFD700D0083A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02E1EC952BFD700D0083A54B /* cookie-slayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookie-slayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1EC992BFD700D0083A54B /* cookie_slayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookie_slayerTests.swift; sourceTree = "<group>"; };
+		02E1EC9F2BFD700D0083A54B /* cookie-slayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookie-slayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1ECA32BFD700D0083A54B /* cookie_slayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookie_slayerUITests.swift; sourceTree = "<group>"; };
+		02E1ECA52BFD700D0083A54B /* cookie_slayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookie_slayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		02E1ECAB2BFD700D0083A54B /* cookie-slayer Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "cookie-slayer Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02E1ECB02BFD700D0083A54B /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		02E1ECB32BFD700D0083A54B /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		02E1ECB52BFD700D0083A54B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		02E1ECB72BFD700D0083A54B /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		02E1ECB92BFD700D0083A54B /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		02E1ECBB2BFD700D0083A54B /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		02E1ECBD2BFD700D0083A54B /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		02E1ECBF2BFD700D0083A54B /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		02E1ECC12BFD700D0083A54B /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		02E1ECC32BFD700D0083A54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02E1EC752BFD700A0083A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1EC922BFD700D0083A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1EC9C2BFD700D0083A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1ECA82BFD700D0083A54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E1EC6F2BFD70090083A54B = {
+			isa = PBXGroup;
+			children = (
+				02E1EC7A2BFD700A0083A54B /* cookie-slayer */,
+				02E1EC982BFD700D0083A54B /* cookie-slayerTests */,
+				02E1ECA22BFD700D0083A54B /* cookie-slayerUITests */,
+				02E1ECAF2BFD700D0083A54B /* cookie-slayer Extension */,
+				02E1EC792BFD700A0083A54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02E1EC792BFD700A0083A54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02E1EC782BFD700A0083A54B /* cookie-slayer.app */,
+				02E1EC952BFD700D0083A54B /* cookie-slayerTests.xctest */,
+				02E1EC9F2BFD700D0083A54B /* cookie-slayerUITests.xctest */,
+				02E1ECAB2BFD700D0083A54B /* cookie-slayer Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02E1EC7A2BFD700A0083A54B /* cookie-slayer */ = {
+			isa = PBXGroup;
+			children = (
+				02E1EC7B2BFD700A0083A54B /* AppDelegate.swift */,
+				02E1EC852BFD700A0083A54B /* SceneDelegate.swift */,
+				02E1EC872BFD700A0083A54B /* ViewController.swift */,
+				02E1EC892BFD700A0083A54B /* LaunchScreen.storyboard */,
+				02E1EC8C2BFD700A0083A54B /* Main.storyboard */,
+				02E1EC8F2BFD700D0083A54B /* Assets.xcassets */,
+				02E1EC902BFD700D0083A54B /* Info.plist */,
+				02E1EC7D2BFD700A0083A54B /* Resources */,
+			);
+			path = "cookie-slayer";
+			sourceTree = "<group>";
+		};
+		02E1EC7D2BFD700A0083A54B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02E1EC7E2BFD700A0083A54B /* Main.html */,
+				02E1EC812BFD700A0083A54B /* Icon.png */,
+				02E1EC832BFD700A0083A54B /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		02E1EC982BFD700D0083A54B /* cookie-slayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				02E1EC992BFD700D0083A54B /* cookie_slayerTests.swift */,
+			);
+			path = "cookie-slayerTests";
+			sourceTree = "<group>";
+		};
+		02E1ECA22BFD700D0083A54B /* cookie-slayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02E1ECA32BFD700D0083A54B /* cookie_slayerUITests.swift */,
+				02E1ECA52BFD700D0083A54B /* cookie_slayerUITestsLaunchTests.swift */,
+			);
+			path = "cookie-slayerUITests";
+			sourceTree = "<group>";
+		};
+		02E1ECAF2BFD700D0083A54B /* cookie-slayer Extension */ = {
+			isa = PBXGroup;
+			children = (
+				02E1ECB02BFD700D0083A54B /* SafariWebExtensionHandler.swift */,
+				02E1ECC32BFD700D0083A54B /* Info.plist */,
+				02E1ECB22BFD700D0083A54B /* Resources */,
+			);
+			path = "cookie-slayer Extension";
+			sourceTree = "<group>";
+		};
+		02E1ECB22BFD700D0083A54B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02E1ECB32BFD700D0083A54B /* _locales */,
+				02E1ECB52BFD700D0083A54B /* images */,
+				02E1ECB72BFD700D0083A54B /* manifest.json */,
+				02E1ECB92BFD700D0083A54B /* background.js */,
+				02E1ECBB2BFD700D0083A54B /* content.js */,
+				02E1ECBD2BFD700D0083A54B /* popup.html */,
+				02E1ECBF2BFD700D0083A54B /* popup.css */,
+				02E1ECC12BFD700D0083A54B /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02E1EC772BFD700A0083A54B /* cookie-slayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1ECCB2BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayer" */;
+			buildPhases = (
+				02E1EC742BFD700A0083A54B /* Sources */,
+				02E1EC752BFD700A0083A54B /* Frameworks */,
+				02E1EC762BFD700A0083A54B /* Resources */,
+				02E1ECCA2BFD700E0083A54B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E1ECAE2BFD700D0083A54B /* PBXTargetDependency */,
+			);
+			name = "cookie-slayer";
+			productName = "cookie-slayer";
+			productReference = 02E1EC782BFD700A0083A54B /* cookie-slayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02E1EC942BFD700D0083A54B /* cookie-slayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1ECCE2BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayerTests" */;
+			buildPhases = (
+				02E1EC912BFD700D0083A54B /* Sources */,
+				02E1EC922BFD700D0083A54B /* Frameworks */,
+				02E1EC932BFD700D0083A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E1EC972BFD700D0083A54B /* PBXTargetDependency */,
+			);
+			name = "cookie-slayerTests";
+			productName = "cookie-slayerTests";
+			productReference = 02E1EC952BFD700D0083A54B /* cookie-slayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02E1EC9E2BFD700D0083A54B /* cookie-slayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1ECD12BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayerUITests" */;
+			buildPhases = (
+				02E1EC9B2BFD700D0083A54B /* Sources */,
+				02E1EC9C2BFD700D0083A54B /* Frameworks */,
+				02E1EC9D2BFD700D0083A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E1ECA12BFD700D0083A54B /* PBXTargetDependency */,
+			);
+			name = "cookie-slayerUITests";
+			productName = "cookie-slayerUITests";
+			productReference = 02E1EC9F2BFD700D0083A54B /* cookie-slayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		02E1ECAA2BFD700D0083A54B /* cookie-slayer Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02E1ECC72BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayer Extension" */;
+			buildPhases = (
+				02E1ECA72BFD700D0083A54B /* Sources */,
+				02E1ECA82BFD700D0083A54B /* Frameworks */,
+				02E1ECA92BFD700D0083A54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cookie-slayer Extension";
+			productName = "cookie-slayer Extension";
+			productReference = 02E1ECAB2BFD700D0083A54B /* cookie-slayer Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02E1EC702BFD70090083A54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					02E1EC772BFD700A0083A54B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					02E1EC942BFD700D0083A54B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 02E1EC772BFD700A0083A54B;
+					};
+					02E1EC9E2BFD700D0083A54B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 02E1EC772BFD700A0083A54B;
+					};
+					02E1ECAA2BFD700D0083A54B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 02E1EC732BFD70090083A54B /* Build configuration list for PBXProject "cookie-slayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02E1EC6F2BFD70090083A54B;
+			productRefGroup = 02E1EC792BFD700A0083A54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02E1EC772BFD700A0083A54B /* cookie-slayer */,
+				02E1EC942BFD700D0083A54B /* cookie-slayerTests */,
+				02E1EC9E2BFD700D0083A54B /* cookie-slayerUITests */,
+				02E1ECAA2BFD700D0083A54B /* cookie-slayer Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02E1EC762BFD700A0083A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1EC822BFD700A0083A54B /* Icon.png in Resources */,
+				02E1EC802BFD700A0083A54B /* Base in Resources */,
+				02E1EC842BFD700A0083A54B /* Style.css in Resources */,
+				02E1EC8B2BFD700A0083A54B /* Base in Resources */,
+				02E1ECC42BFD700E0083A54B /* Assets.xcassets in Resources */,
+				02E1EC8E2BFD700A0083A54B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1EC932BFD700D0083A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1EC9D2BFD700D0083A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1ECA92BFD700D0083A54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1ECBA2BFD700D0083A54B /* background.js in Resources */,
+				02E1ECC02BFD700D0083A54B /* popup.css in Resources */,
+				02E1ECBE2BFD700D0083A54B /* popup.html in Resources */,
+				02E1ECB62BFD700D0083A54B /* images in Resources */,
+				02E1ECB82BFD700D0083A54B /* manifest.json in Resources */,
+				02E1ECB42BFD700D0083A54B /* _locales in Resources */,
+				02E1ECBC2BFD700D0083A54B /* content.js in Resources */,
+				02E1ECC22BFD700D0083A54B /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E1EC742BFD700A0083A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1EC882BFD700A0083A54B /* ViewController.swift in Sources */,
+				02E1EC7C2BFD700A0083A54B /* AppDelegate.swift in Sources */,
+				02E1EC862BFD700A0083A54B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1EC912BFD700D0083A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1EC9A2BFD700D0083A54B /* cookie_slayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1EC9B2BFD700D0083A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1ECA62BFD700D0083A54B /* cookie_slayerUITestsLaunchTests.swift in Sources */,
+				02E1ECA42BFD700D0083A54B /* cookie_slayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02E1ECA72BFD700D0083A54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02E1ECB12BFD700D0083A54B /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E1EC972BFD700D0083A54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E1EC772BFD700A0083A54B /* cookie-slayer */;
+			targetProxy = 02E1EC962BFD700D0083A54B /* PBXContainerItemProxy */;
+		};
+		02E1ECA12BFD700D0083A54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E1EC772BFD700A0083A54B /* cookie-slayer */;
+			targetProxy = 02E1ECA02BFD700D0083A54B /* PBXContainerItemProxy */;
+		};
+		02E1ECAE2BFD700D0083A54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02E1ECAA2BFD700D0083A54B /* cookie-slayer Extension */;
+			targetProxy = 02E1ECAD2BFD700D0083A54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02E1EC7E2BFD700A0083A54B /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E1EC7F2BFD700A0083A54B /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		02E1EC892BFD700A0083A54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E1EC8A2BFD700A0083A54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		02E1EC8C2BFD700A0083A54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02E1EC8D2BFD700A0083A54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02E1ECC52BFD700E0083A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02E1ECC62BFD700E0083A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02E1ECC82BFD700E0083A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cookie-slayer Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cookie-slayer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayer.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02E1ECC92BFD700E0083A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cookie-slayer Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cookie-slayer Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayer.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02E1ECCC2BFD700E0083A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cookie-slayer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cookie-slayer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02E1ECCD2BFD700E0083A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cookie-slayer/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "cookie-slayer";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02E1ECCF2BFD700E0083A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookie-slayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cookie-slayer";
+			};
+			name = Debug;
+		};
+		02E1ECD02BFD700E0083A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookie-slayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cookie-slayer";
+			};
+			name = Release;
+		};
+		02E1ECD22BFD700E0083A54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cookie-slayer";
+			};
+			name = Debug;
+		};
+		02E1ECD32BFD700E0083A54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bruce.cookie-slayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "cookie-slayer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02E1EC732BFD70090083A54B /* Build configuration list for PBXProject "cookie-slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1ECC52BFD700E0083A54B /* Debug */,
+				02E1ECC62BFD700E0083A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1ECC72BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayer Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1ECC82BFD700E0083A54B /* Debug */,
+				02E1ECC92BFD700E0083A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1ECCB2BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1ECCC2BFD700E0083A54B /* Debug */,
+				02E1ECCD2BFD700E0083A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1ECCE2BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1ECCF2BFD700E0083A54B /* Debug */,
+				02E1ECD02BFD700E0083A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02E1ECD12BFD700E0083A54B /* Build configuration list for PBXNativeTarget "cookie-slayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02E1ECD22BFD700E0083A54B /* Debug */,
+				02E1ECD32BFD700E0083A54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02E1EC702BFD70090083A54B /* Project object */;
+}
